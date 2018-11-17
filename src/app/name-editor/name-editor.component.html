@@ -1,0 +1,6 @@
+<label>
+  Name:
+  <input type="text" [formControl]="name">
+  <button (click)="onSetDefault()">Set Default</button>
+  {{name.value}}
+</label>
